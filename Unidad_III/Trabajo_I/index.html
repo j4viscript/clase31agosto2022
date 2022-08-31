@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myapp">
+        <!-- <fieldset>
+            <legend>
+                nuevo alumno
+            </legend>
+            <input type="text" v-model="a_name" name="">
+            <input type="text" v-model="role" name="">
+            <button @click="addPalomilla">save</button>
+        </fieldset> -->
+        <!-- <h2> Alumno </h2>
+         <ol>
+             <li v-for="alumno in palomilla">
+                 {{alumno}}
+             </li>
+         </ol> -->
+        <form>
+            <fieldset>
+                <legend>suma</legend>
+                <input type="text" v-model="num1" name="" >
+                <input type="text" v-model="num2" name="" >
+
+                <button type="button" @click="Sumar">
+                    sumar
+                </button>
+                <h1>{{result}}</h1>
+            </fieldset>
+
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script type="text/javascript" src="/javascript/index.js"></script>
+</body>
+</html>
